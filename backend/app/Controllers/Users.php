@@ -11,4 +11,20 @@ class Users extends BaseController
     {
         return view('user/landing_page');      //
     }
+    public function login()
+    {
+        return view('user/login_page');
+    }
+    public function signup()
+    {
+        return view('user/signup_page');
+    }
+    public function moodboard()
+    {
+        return view('user/moodboard');
+    }
+    public function roadmap()
+    {
+        return view('user/roadmap');
+    }
 }
